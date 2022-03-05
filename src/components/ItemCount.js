@@ -35,7 +35,7 @@ export const ItemCount = (parametro) =>{
                         onClick={increment}>+</button>
 
                     <button className="btn btn-warning btn-lg" 
-                        onClick={ccontext.prueba()}>prueba</button>
+                        onClick={()=>ccontext.prueba()}>prueba</button>
                 </div>                
             </div>
         </>
